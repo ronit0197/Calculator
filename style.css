@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(90, 90, 90);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    background-color: black;
+    height: 600px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.7), 0px 0px 20px rgba(0,0,0,0.7);
+}
+td{
+    padding: 5px;
+}
+input{
+    height: 100px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: none;
+    text-align: end;
+}
+button{
+    height: 70px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--i);
+    color: #fff;
+    font-size: 20px;
+}
+.digit{
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+}
